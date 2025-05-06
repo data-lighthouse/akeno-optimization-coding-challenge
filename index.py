@@ -92,10 +92,14 @@ def solve_scheduling(jobs, machines, assignment, processing_time, time_limit_s=3
 
 
 if __name__ == "__main__":
-    # --- Generate 500 jobs and 20 machines ---
+    # --- Generate 50000 jobs and 30 machines ---
     random.seed(0)
-    jobs = list(range(50000))
-    machines = list(range(30))
+
+    num_jobs = 50000
+    num_machines = 30
+
+    jobs = list(range(num_jobs))
+    machines = list(range(num_machines))
 
     cost = {
         j: {m: random.randint(80, 100) for m in machines}
