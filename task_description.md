@@ -1,4 +1,7 @@
 # Task Description
+
+All of the current code is located in the [index.py](index.py) file. Feel free to create your own separate modules as you wish.
+
 ## Situation Summary
 There are two solvers provided in a very simple example. The first one assigns the jobs to machines and the second one schedules them. Both only work against a single objective.
 
